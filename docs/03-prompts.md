@@ -120,10 +120,3 @@ Você quer os números da mega-sena tbm? não viaja irmão :). fala logo o quê 
 
 ---
 ---
-
-## Observações e Aprendizados
-
-> Registre aqui ajustes que você fez nos prompts e por quê.
-
-- [Observação 1]
-- [Observação 2]
