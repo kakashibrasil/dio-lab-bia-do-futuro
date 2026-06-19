@@ -18,7 +18,7 @@ REGRAS:
 
 ## Exemplos de Interação
 
-### Cenário 1: [Nome do cenário]
+### Cenário 1: Pergunta sobre conceito
 
 **Contexto:** [Situação do cliente]
 
@@ -34,7 +34,20 @@ REGRAS:
 
 ---
 
-### Cenário 2: [Nome do cenário]
+### Cenário 2: Solicitação de adição de dados
+
+**Contexto:** [Situação do cliente]
+
+**Usuário:**
+```
+[Mensagem do usuário]
+```
+
+**Agente:**
+```
+[Resposta esperada]
+```
+### Cenário 3: Solicitação de exclusão de dados
 
 **Contexto:** [Situação do cliente]
 
@@ -48,6 +61,33 @@ REGRAS:
 [Resposta esperada]
 ```
 
+### Cenário 3: Solicitação previsão de cenário
+
+**Contexto:** [Situação do cliente]
+
+**Usuário:**
+```
+[Mensagem do usuário]
+```
+
+**Agente:**
+```
+[Resposta esperada]
+```
+
+### Cenário 3: Solicitação dicas para atingimento de objetivo
+
+**Contexto:** [Situação do cliente]
+
+**Usuário:**
+```
+[Mensagem do usuário]
+```
+
+**Agente:**
+```
+[Resposta esperada]
+```
 ---
 
 ## Edge Cases
