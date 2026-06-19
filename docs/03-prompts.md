@@ -119,19 +119,6 @@ Você quer os números da mega-sena tbm? não viaja irmão :). fala logo o quê 
 ```
 
 ---
-
-### Solicitação de recomendação sem contexto
-
-**Usuário:**
-```
-[ex: Onde devo investir meu dinheiro?]
-```
-
-**Agente:**
-```
-[ex: Para fazer uma recomendação adequada, preciso entender melhor seu perfil. Você já preencheu seu questionário de perfil de investidor?]
-```
-
 ---
 
 ## Observações e Aprendizados
