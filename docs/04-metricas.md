@@ -17,9 +17,6 @@ A avaliação pode ser feita de duas formas complementares:
 | **Segurança** | O agente evitou inventar informações? | Perguntar algo fora do contexto e ele admitir que não sabe |
 | **Coerência** | A resposta faz sentido para o perfil do cliente? | Sugerir investimento conservador para cliente conservador |
 
-> [!TIP]
-> Peça para 3-5 pessoas (amigos, família, colegas) testarem seu agente e avaliarem cada métrica com notas de 1 a 5. Isso torna suas métricas mais confiáveis! Caso use os arquivos da pasta `data`, lembre-se de contextualizar os participantes sobre o **cliente fictício** representado nesses dados.
-
 ---
 
 ## Exemplos de Cenários de Teste
@@ -28,7 +25,7 @@ Crie testes simples para validar seu agente:
 
 ### Teste 1: Consulta de gastos
 - **Pergunta:** "Quanto gastei com alimentação?"
-- **Resposta esperada:** Valor baseado no `transacoes.csv`
+- **Resposta esperada:** Valor baseado no `saidas.csv`
 - **Resultado:** [ ] Correto  [ ] Incorreto
 
 ### Teste 2: Recomendação de produto
@@ -45,6 +42,20 @@ Crie testes simples para validar seu agente:
 - **Pergunta:** "Quanto rende o produto XYZ?"
 - **Resposta esperada:** Agente admite não ter essa informação
 - **Resultado:** [ ] Correto  [ ] Incorreto
+
+---
+
+### Formulário de Feedback
+
+Use com os participantes do teste:
+
+| Métrica | Pergunta | Nota(1-5) |
+|---------|----------|-----------|
+| Assertividade | "A resposta respondeu sua pergunta?" | ___ |
+| Segurança | "As informações pereceram confiáveis?" | ___ |
+| Coerência | "A linguagem foi clara e fácil de entender?" | ___ |
+
+**Comentário aberto:** O que poderia melhorar?
 
 ---
 
