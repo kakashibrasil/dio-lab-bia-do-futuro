@@ -28,9 +28,9 @@ Crie testes simples para validar seu agente:
 - **Resposta esperada:** Valor baseado no `saidas.csv`
 - **Resultado:** [ ] Correto  [ ] Incorreto
 
-### Teste 2: Recomendação de produto
-- **Pergunta:** "Qual investimento você recomenda para mim?"
-- **Resposta esperada:** Produto compatível com o perfil do cliente
+### Teste 2: Operações de entrada de dados sem contexto
+- **Pergunta:** "Adicione 500 na planilha de entrada"
+- **Resposta esperada:** Pedir o contexto completo para o usuário
 - **Resultado:** [ ] Correto  [ ] Incorreto
 
 ### Teste 3: Pergunta fora do escopo
@@ -39,7 +39,7 @@ Crie testes simples para validar seu agente:
 - **Resultado:** [ ] Correto  [ ] Incorreto
 
 ### Teste 4: Informação inexistente
-- **Pergunta:** "Quanto rende o produto XYZ?"
+- **Pergunta:** "Qual a entrada do prêmio da mega-sena para o mês de Janeiro/2026?"
 - **Resposta esperada:** Agente admite não ter essa informação
 - **Resultado:** [ ] Correto  [ ] Incorreto
 
@@ -71,12 +71,5 @@ Após os testes, registre suas conclusões:
 
 ---
 
-## Métricas Avançadas (Opcional)
-
-Para quem quer explorar mais, algumas métricas técnicas de observabilidade também podem fazer parte da sua solução, como:
-
-- Latência e tempo de resposta;
-- Consumo de tokens e custos;
-- Logs e taxa de erros.
 
 Ferramentas especializadas em LLMs, como [LangWatch](https://langwatch.ai/) e [LangFuse](https://langfuse.com/), são exemplos que podem ajudar nesse monitoramento. Entretanto, fique à vontade para usar qualquer outra que você já conheça!
